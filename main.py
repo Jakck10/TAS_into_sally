@@ -38,4 +38,5 @@ for x in command:
     if (x not in usablechar) and (not x.isdigit()) and (x != ' '):
         print(f'Warning: \'{x}\' is not an usable char')
 
+print(f"The command is long {len(command)} characters")
 print("You can copypaste this in chat (probably, i didnt debug much lol):\n" + command)
